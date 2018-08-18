@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "543015899937",
+    "firebase_url": "https://windmill-66ddf.firebaseio.com",
+    "project_id": "windmill-66ddf",
+    "storage_bucket": "windmill-66ddf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543015899937:android:455ec38442298529",
+        "android_client_info": {
+          "package_name": "com.robotics.katamaron.windmill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543015899937-b5n6k1ul9ihv2qqghce8b8254ss2tse0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHauEQEi9KU6y_jnbGLiqY_amKH7KPptY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

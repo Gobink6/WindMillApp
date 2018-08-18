@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:id="@+id/nav_open_map"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_windmill"
+            android:icon="@drawable/ic_windmills"
+            android:title="Select windmill" />
+    </group>
+
+    <group android:id="@+id/nav_open_user_production"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_production"
+            android:icon="@drawable/ic_prod"
+            android:title="Production" />
+    </group>
+
+    <group android:id="@+id/nav_open_overview"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_overviews"
+            android:icon="@drawable/ic_overview"
+            android:title="Overview" />
+    </group>
+
+    <group android:id="@+id/nav_open_login"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

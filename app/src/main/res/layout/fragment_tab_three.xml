@@ -1,0 +1,3046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab_three">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="  Total"
+                    android:textColor="@color/blue"
+                    android:textSize="30sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_tot"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Total"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_tot"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_tot"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_tot"
+                                        android:layout_alignBottom="@+id/hc_id_tot_tot"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_run"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Run"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_run"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_run"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_run"
+                                        android:layout_alignBottom="@+id/hc_id_tot_run"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_linek"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Line ok"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_linek"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_linek"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_linek"
+                                        android:layout_alignBottom="@+id/hc_id_tot_linek"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 1"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_gen1"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_gen1"
+                                        android:layout_alignBottom="@+id/hc_id_tot_gen1"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_tur"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Turbine ok"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_tur"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_tur"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_tur"
+                                        android:layout_alignBottom="@+id/hc_id_tot_tur"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 2"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_gen2"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_gen2"
+                                        android:layout_alignBottom="@+id/hc_id_tot_gen2"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Ambient"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_amb"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_amb"
+                                        android:layout_alignBottom="@+id/hc_id_tot_amb"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_line"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Line"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_line"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_line"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_line"
+                                        android:layout_alignBottom="@+id/hc_id_tot_line"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_yaw"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Yawing"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_yaw"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_yaw"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_yaw"
+                                        android:layout_alignBottom="@+id/hc_id_tot_yaw"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                    <View
+                                        android:layout_width="5dp"
+                                        android:layout_height="0dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="195dp"
+                                        android:layout_marginStart="195dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_ser"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Service"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_ser"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_ser"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_ser"
+                                        android:layout_alignBottom="@+id/hc_id_tot_ser"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_tot_disp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Disp"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_tot_disp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_tot_disp"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_tot_disp"
+                                        android:layout_alignBottom="@+id/hc_id_tot_disp"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                    <View
+                                        android:layout_width="5dp"
+                                        android:layout_height="0dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="195dp"
+                                        android:layout_marginStart="195dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="  Month"
+                    android:textColor="@color/blue"
+                    android:textSize="30sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_tot"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Total"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_tot"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_tot"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_tot"
+                                        android:layout_alignBottom="@+id/hc_id_mth_tot"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_run"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Run"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_run"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_run"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_run"
+                                        android:layout_alignBottom="@+id/hc_id_mth_run"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_linek"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Line ok"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_linek"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_linek"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_linek"
+                                        android:layout_alignBottom="@+id/hc_id_mth_linek"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 1"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_gen1"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_gen1"
+                                        android:layout_alignBottom="@+id/hc_id_mth_gen1"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_tur"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Turbine ok"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_tur"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_tur"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_tur"
+                                        android:layout_alignBottom="@+id/hc_id_mth_tur"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 2"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_gen2"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_gen2"
+                                        android:layout_alignBottom="@+id/hc_id_mth_gen2"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Ambient"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_amb"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_amb"
+                                        android:layout_alignBottom="@+id/hc_id_mth_amb"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_line"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Line"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_line"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_line"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_line"
+                                        android:layout_alignBottom="@+id/hc_id_mth_line"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_yaw"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Yawing"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_yaw"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_yaw"
+                                        android:layout_marginTop="0dp"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_yaw"
+                                        android:layout_alignBottom="@+id/hc_id_mth_yaw"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                    <View
+                                        android:layout_width="5dp"
+                                        android:layout_height="0dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="195dp"
+                                        android:layout_marginStart="195dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_ser"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Service"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_ser"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_ser"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_ser"
+                                        android:layout_alignBottom="@+id/hc_id_mth_ser"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_mth_disp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Disp"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_mth_disp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_mth_disp"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_mth_disp"
+                                        android:layout_alignBottom="@+id/hc_id_mth_disp"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                    <View
+                                        android:layout_width="5dp"
+                                        android:layout_height="0dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="195dp"
+                                        android:layout_marginStart="195dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="  Trip"
+                    android:textColor="@color/blue"
+                    android:textSize="30sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_tot"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Total"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_tot"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_tot"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_tot"
+                                        android:layout_alignBottom="@+id/hc_id_trip_tot"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_run"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Run"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_run"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_run"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_run"
+                                        android:layout_alignBottom="@+id/hc_id_trip_run"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_linek"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Line ok"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_linek"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_linek"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_linek"
+                                        android:layout_alignBottom="@+id/hc_id_trip_linek"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 1"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_gen1"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_gen1"
+                                        android:layout_alignBottom="@+id/hc_id_trip_gen1"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_tur"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Turbine ok"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_tur"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_tur"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_tur"
+                                        android:layout_alignBottom="@+id/hc_id_trip_tur"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 2"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_gen2"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_gen2"
+                                        android:layout_alignBottom="@+id/hc_id_trip_gen2"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Ambient"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_amb"
+                                        android:layout_marginTop="0dp"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_amb"
+                                        android:layout_alignBottom="@+id/hc_id_trip_amb"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_line"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Line"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_line"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_line"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_line"
+                                        android:layout_alignBottom="@+id/hc_id_trip_line"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_yaw"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Yawing"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_yaw"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_yaw"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_yaw"
+                                        android:layout_alignBottom="@+id/hc_id_trip_yaw"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                    <View
+                                        android:layout_width="5dp"
+                                        android:layout_height="0dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="195dp"
+                                        android:layout_marginStart="195dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_ser"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Service"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_ser"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_ser"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_ser"
+                                        android:layout_alignBottom="@+id/hc_id_trip_ser"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/hc_trip_disp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Disp"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/hc_id_trip_disp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/hc_trip_disp"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/hc_id_trip_disp"
+                                        android:layout_alignBottom="@+id/hc_id_trip_disp"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="h"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                    <View
+                                        android:layout_width="5dp"
+                                        android:layout_height="0dp"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_centerVertical="true"
+                                        android:layout_marginLeft="195dp"
+                                        android:layout_marginStart="195dp" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,2195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab_5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="  Present Temp"
+                    android:textColor="@color/blue"
+                    android:textSize="30sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Ambi"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_amb"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_amb"
+                                        android:layout_alignBottom="@+id/tem_pre_id_amb"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_con"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Control"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_con"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_con"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_con"
+                                        android:layout_alignBottom="@+id/tem_pre_id_con"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 1"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_gen1"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_gen1"
+                                        android:layout_alignBottom="@+id/tem_pre_id_gen1"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_hyd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Hydr"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_hyd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_hyd"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_hyd"
+                                        android:layout_alignBottom="@+id/tem_pre_id_hyd"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 2"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_gen2"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_gen2"
+                                        android:layout_alignBottom="@+id/tem_pre_id_gen2"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_gear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gear"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_gear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_gear"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_gear"
+                                        android:layout_alignBottom="@+id/tem_pre_id_gear"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_nac"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Nacel"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_nac"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_nac"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_nac"
+                                        android:layout_alignBottom="@+id/tem_pre_id_nac"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_bear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Bear"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_pre_id_bear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_pre_bear"
+                                        android:text=""
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_pre_id_bear"
+                                        android:layout_alignBottom="@+id/tem_pre_id_bear"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="  Max Temp"
+                    android:textColor="@color/blue"
+                    android:textSize="30sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Ambi"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_amb"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_amb"
+                                        android:layout_alignBottom="@+id/tem_max_id_amb"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_con"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Control"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_con"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_con"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_con"
+                                        android:layout_alignBottom="@+id/tem_max_id_con"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 1"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_gen1"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_gen1"
+                                        android:layout_alignBottom="@+id/tem_max_id_gen1"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_hyd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Hydr"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_hyd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_hyd"
+                                        android:layout_marginTop="0dp"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_hyd"
+                                        android:layout_alignBottom="@+id/tem_max_id_hyd"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 2"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_gen2"
+                                        android:layout_marginLeft="0dp"
+                                        android:layout_marginStart="0dp"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_gen2"
+                                        android:layout_alignBottom="@+id/tem_max_id_gen2"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_gear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gear"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_gear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_gear"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_gear"
+                                        android:layout_alignBottom="@+id/tem_max_id_gear"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_nac"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Nacel"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_nac"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_nac"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_nac"
+                                        android:layout_alignBottom="@+id/tem_max_id_nac"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_max_bear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Bear"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_max_id_bear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_max_bear"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_max_id_bear"
+                                        android:layout_alignBottom="@+id/tem_max_id_bear"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/spacing_middle"
+                    android:text="  Min Temp"
+                    android:textColor="@color/blue"
+                    android:textSize="30sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Ambi"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_amb"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_amb"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_amb"
+                                        android:layout_alignBottom="@+id/tem_min_id_amb"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_con"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Control"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_con"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_con"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_con"
+                                        android:layout_alignBottom="@+id/tem_min_id_con"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 1"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_gen1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_gen1"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_gen1"
+                                        android:layout_alignBottom="@+id/tem_min_id_gen1"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_hyd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Hydr"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_hyd"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_hyd"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_hyd"
+                                        android:layout_alignBottom="@+id/tem_min_id_hyd"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gen 2"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_gen2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_gen2"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_gen2"
+                                        android:layout_alignBottom="@+id/tem_min_id_gen2"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_gear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Gear"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_gear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_gear"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_gear"
+                                        android:layout_alignBottom="@+id/tem_min_id_gear"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_nac"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Nacel"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_nac"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_nac"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_nac"
+                                        android:layout_alignBottom="@+id/tem_min_id_nac"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+                                </RelativeLayout>
+                            </LinearLayout>
+
+
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="0dp" />
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/spacing_xsmall"
+                            android:layout_marginLeft="@dimen/spacing_xsmall"
+                            android:layout_marginRight="@dimen/spacing_xsmall"
+                            android:layout_marginTop="@dimen/spacing_xsmall"
+                            android:layout_weight="0"
+                            android:visibility="visible"
+                            app:cardCornerRadius="2.0dip"
+                            app:cardElevation="2.0dip">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_alignParentTop="true"
+                                android:orientation="horizontal"
+                                android:paddingBottom="2dp"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="@dimen/spacing_large"
+                                android:paddingTop="2dp">
+
+
+                                <View
+                                    android:layout_width="@dimen/spacing_middle"
+                                    android:layout_height="0.0dip" />
+
+                                <RelativeLayout
+                                    android:layout_width="135dp"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:id="@+id/tem_min_bear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_alignParentTop="true"
+                                        android:text="Bear"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                                        android:textColor="@color/green"
+                                        android:textStyle="bold" />
+
+
+                                    <TextView
+                                        android:id="@+id/tem_min_id_bear"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_alignParentStart="true"
+                                        android:layout_below="@+id/tem_min_bear"
+                                        android:text="444"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                                        android:textColor="#000" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignBaseline="@+id/tem_min_id_bear"
+                                        android:layout_alignBottom="@+id/tem_min_id_bear"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="°c"
+                                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                                        android:textColor="#000" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                        </android.support.v7.widget.CardView>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="5dp"
+                        android:layout_height="0dp" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</LinearLayout>

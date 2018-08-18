@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorWhite"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".LoginActivity">
+
+    <View
+        android:background="@color/colorKatomaran"
+        android:layout_width="fill_parent"
+        android:layout_height="270.0dip" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_mlarge"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="200.0dip"
+            android:layout_height="130.0dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/spacing_mlarge"
+            android:layout_marginTop="@dimen/spacing_large"
+            android:src="@drawable/katlogo" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_middle"
+            app:cardCornerRadius="6.0dip"
+            app:cardElevation="5.0dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="@dimen/spacing_mlarge"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_middle"
+                    android:layout_marginBottom="@dimen/spacing_xlarge"
+                    android:text="SIGN IN" />
+                <TextView
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                    android:textColor="	#808080"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="USERNAME" />
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/la_username"
+                    android:theme="@style/EditText.Grey"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:textColor="#808080"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-4.0dip"
+                    android:layout_marginRight="-4.0dip"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:maxLength="50"
+                    android:inputType="text" />
+                <View android:layout_width="0.0dip"
+                    android:layout_height="@dimen/spacing_mlarge" />
+                <TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+                    android:textColor="	#808080"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PASSWORD" />
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/la_password"
+                    android:theme="@style/EditText.Grey"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold"
+                    android:textColor="#808080"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-4.0dip"
+                    android:layout_marginRight="-4.0dip"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:maxLength="50"
+                    android:inputType="textPassword" />
+                <View android:layout_width="0.0dip"
+                    android:layout_height="@dimen/spacing_mlarge" />
+                <Button android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/btn_rounded_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="55.0dip"
+                    android:layout_marginLeft="-4.0dip"
+                    android:layout_marginRight="-4.0dip"
+                    android:onClick="Login"
+                    android:text="S I G N  I N"
+                    android:textAllCaps="false" />
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/spacing_large"
+                    android:layout_marginBottom="@dimen/spacing_medium">
+                    <View android:layout_width="0.0dip"
+                        android:layout_height="@dimen/spacing_mlarge" />
+                    <TextView
+                        android:id="@+id/la_forget"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+                        android:textColor="@color/colorBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="forget password" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        </ScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Created by @katomaran"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
